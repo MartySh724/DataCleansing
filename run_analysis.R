@@ -36,4 +36,4 @@ extract <- merge(extract, activity, by = "ActivityCode", all=FALSE)
 avgMeasure <- group_by(extract, Activity) %>% summarise_each(funs(mean))
 write.table(avgMeasure, file = "AvgMeasure.txt", row.names = TRUE)
 
-  
+avgMeasure  

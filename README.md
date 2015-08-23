@@ -18,3 +18,4 @@ The script uses the following variables:
 | measureMean  | List of columns that are the mean calucations |
 | extract      | Subset of analysis that has only the mean and std deviation values
 | avgMeasure   | The average of the measurements broken down by Activity |
+
